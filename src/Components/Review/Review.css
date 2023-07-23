@@ -1,0 +1,12 @@
+.animate-scrolling {
+  animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

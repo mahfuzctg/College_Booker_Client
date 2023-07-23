@@ -1,0 +1,10 @@
+@tailwind;
+@tailwind components;
+@tailwind utilities;
+#root {
+  width: 96%;
+  margin: auto;
+  text-align: center;
+
+  color: rgb(34, 0, 0);
+}
