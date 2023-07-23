@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const logItem = <></>;
   const navItem = (
     <>
       <li>
@@ -31,7 +30,7 @@ const Header = () => {
   );
 
   return (
-    <div className="navbar h-1 bg-black text-rose-100">
+    <div className="navbar h-1  bg-black text-rose-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn  lg:hidden ">

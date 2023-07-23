@@ -4,18 +4,33 @@ import History from "../History/History";
 
 const Home = () => {
   return (
-    <div>
-      <img
-        className="w-full"
-        src="https://i.postimg.cc/3NTd2rZr/school-design-g88b6d30e5-1280.png"
-        alt=""
-      />
-      <>
-        <Gallery></Gallery>
-        <Review></Review>
-        <History></History>
-      </>
-    </div>
+    <>
+      <div className="card lg:card-side bg-base-100 shadow-xl">
+        <>
+          <img
+            className="lg:w-5/12"
+            src="https://i.postimg.cc/bYMdDmSr/46500217-school-building-isometric-icons-set-with-field-bus-and-benches-isolated-vector-illustration.webp"
+            alt="Album"
+          />
+        </>
+        <div className="card-body text-center">
+          <h2 className="text-center">
+            Simplify Your College Bookings and Events!
+          </h2>
+          <p className=" text-justify">
+            Welcome to CollegeBooker! Your one-stop destination for hassle-free
+            college bookings and event planning. Discover a seamless experience,
+            where you can easily book college facilities, host events, and
+            connect with your campus community. Get ready to elevate your
+            college life with CollegeBooker!
+          </p>
+        </div>
+      </div>
+      {/*  */}
+      <Gallery></Gallery>
+      <Review></Review>
+      <History></History>
+    </>
   );
 };
 
