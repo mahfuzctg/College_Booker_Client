@@ -1,6 +1,8 @@
 import Gallery from "../Gallery/Gallery";
 import Review from "../Review/Review";
 import History from "../History/History";
+import CollegePage from "../Colleges/CollegeHomeCard";
+import CollegeCard from "../Colleges/CollegeCard";
 
 const Home = () => {
   return (
@@ -27,6 +29,7 @@ const Home = () => {
         </div>
       </div>
       {/*  */}
+
       <Gallery></Gallery>
       <Review></Review>
       <History></History>
