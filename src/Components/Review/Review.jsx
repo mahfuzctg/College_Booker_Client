@@ -7,7 +7,7 @@ const collegeReviews = [
     review:
       "Oshadharon bishwabidyalay jekhane atyuttam subidha ebong sohokari odbhut adhyapokbrindo!",
     rating: 5,
-    profilePicURL: "https://i.postimg.cc/8cF7qh8Z/ayman-sadiq.jpg",
+    profilePicURL: "https://i.postimg.cc/prXpH1Mz/1688697020393.jpg",
   },
   {
     name: "Tasnin Aktar",
@@ -15,7 +15,7 @@ const collegeReviews = [
     review:
       "Ei bishwabidyalaye ami ashchorjo abhijnota peyechi. Atyanto bhalobasha kora hoy!",
     rating: 4,
-    profilePicURL: "https://i.postimg.cc/8cF7qh8Z/ayman-sadiq.jpg",
+    profilePicURL: "https://i.postimg.cc/65BQ4Qqc/images.jpg",
   },
   {
     name: "Rahim Alam",
@@ -23,7 +23,7 @@ const collegeReviews = [
     review:
       "Bishesh bishwabidyalay jekhane akarshak shikkhokgana o upokari sadasya!",
     rating: 4.5,
-    profilePicURL: "https://i.postimg.cc/8cF7qh8Z/ayman-sadiq.jpg",
+    profilePicURL: "https://i.postimg.cc/2y68Jbnx/1688363944682.jpg",
   },
   {
     name: "Nadia Khanom",
@@ -31,7 +31,8 @@ const collegeReviews = [
     review:
       "Ei bishwabidyalaye ami amar shomoye bhison priti kori. Shikshan er jonno dhonyobad!",
     rating: 5,
-    profilePicURL: "https://i.postimg.cc/8cF7qh8Z/ayman-sadiq.jpg",
+    profilePicURL:
+      "https://i.postimg.cc/v8f16jzY/spoken-english-by-munzereen-shahid-6-QFSLng-UB9-Z-iv-Vl-BAj3w4g-1400x1400.jpg",
   },
   {
     name: "Karim Mia",
@@ -39,7 +40,7 @@ const collegeReviews = [
     review:
       "Ekta shundor bishwabidyalay jekhane onk valo sadasya ebong kormokorta royeche!",
     rating: 4,
-    profilePicURL: "https://i.postimg.cc/8cF7qh8Z/ayman-sadiq.jpg",
+    profilePicURL: "https://i.postimg.cc/6pNx44T1/1673622988038.jpg",
   },
   {
     name: "Tahmina Rahman",
@@ -47,7 +48,8 @@ const collegeReviews = [
     review:
       "Ami eto khushi je ei bishwabidyalaye admission peyeche. Ekhane shikhte onk khusi!",
     rating: 4.8,
-    profilePicURL: "https://i.postimg.cc/8cF7qh8Z/ayman-sadiq.jpg",
+    profilePicURL:
+      "https://i.postimg.cc/d19j6X9y/128762753-portrait-closeup-asian-beautiful-smiley-graduate-graduated-student-girl-young-woman-in-cap.webp",
   },
 ];
 

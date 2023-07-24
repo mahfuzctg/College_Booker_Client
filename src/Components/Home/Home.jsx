@@ -1,8 +1,8 @@
 import Gallery from "../Gallery/Gallery";
 import Review from "../Review/Review";
 import History from "../History/History";
-import CollegePage from "../Colleges/CollegeHomeCard";
-import CollegeCard from "../Colleges/CollegeCard";
+
+import CollegeHome from "../Colleges/CollegeHome";
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       {/*  */}
-
+      <CollegeHome></CollegeHome>
       <Gallery></Gallery>
       <Review></Review>
       <History></History>

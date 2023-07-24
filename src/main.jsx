@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home.jsx";
 
 import AdmissionPage from "./Components/Admission/Addmission";
 import Colleges from "./Components/Colleges/Colleges";
+import MyCollege from "./Components/MyColleges/MyColleges";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/Admission",
         element: <AdmissionPage></AdmissionPage>,
+      },
+      {
+        path: "/MyCollege",
+        element: <MyCollege></MyCollege>,
       },
     ],
   },

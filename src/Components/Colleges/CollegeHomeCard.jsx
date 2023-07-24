@@ -1,44 +1,30 @@
-import React, { useState } from "react";
-import CollegeCard from "./CollegeCard";
-
-const collegesData = [
-  // Colleges data here...
-];
-
-const CollegePage = () => {
-  const [filter, setFilter] = useState("");
-  const [colleges, setColleges] = useState(collegesData);
-
-  const handleFilterChange = (e) => {
-    setFilter(e.target.value);
-    const filteredColleges = collegesData.filter((college) =>
-      college.name.toLowerCase().includes(e.target.value.toLowerCase())
+const CollegeCard = ({ college }) => {
+  if (!college) {
+    return (
+      <div className="text-red-500">Error: College data not available</div>
     );
-    setColleges(filteredColleges);
-  };
+  }
+
+  const { name, image, rating, admissionDate, researchCount } = college;
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-semibold mb-8">Colleges</h1>
-      <form className="mb-4">
-        <label htmlFor="collegeFilter" className="block mb-2">
-          Filter Colleges:
-        </label>
-        <input
-          type="text"
-          id="collegeFilter"
-          value={filter}
-          onChange={handleFilterChange}
-          className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
-        />
-      </form>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {colleges.map((college, index) => (
-          <CollegeCard key={index} college={college} />
-        ))}
+    <div className="bg-white shadow-md rounded-lg p-4">
+      <img
+        src={image}
+        alt={name}
+        className="w-full h-40 object-cover rounded-md"
+      />
+      <h2 className="text-xl font-semibold mt-4">{name}</h2>
+      <p className="text-gray-600">Rating: {rating}</p>
+      <p className="text-gray-600">Admission Date: {admissionDate}</p>
+      <p className="text-gray-600">Research Count: {researchCount}</p>
+      <div className="mt-4 flex justify-center">
+        <button className="px-4 py-2 bg-black text-white rounded-md hover:bg-slate-500">
+          Details
+        </button>
       </div>
     </div>
   );
 };
 
-export default CollegePage;
+export default CollegeHomeCard;

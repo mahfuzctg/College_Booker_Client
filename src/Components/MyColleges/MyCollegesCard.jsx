@@ -1,4 +1,4 @@
-const CollegeCard = ({ college }) => {
+const CollegeHomeCard = ({ college }) => {
   if (!college) {
     return (
       <div className="text-red-500">Error: College data not available</div>
@@ -19,7 +19,7 @@ const CollegeCard = ({ college }) => {
       <p className="text-gray-600">Admission Date: {admissionDate}</p>
       <p className="text-gray-600">Research Count: {researchCount}</p>
       <div className="mt-4 flex justify-center">
-        <button className="px-4 py-2 bg-black text-white rounded-md hover:bg-slate-500">
+        <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
           Details
         </button>
       </div>
@@ -27,4 +27,4 @@ const CollegeCard = ({ college }) => {
   );
 };
 
-export default CollegeCard;
+export default CollegeHomeCard;

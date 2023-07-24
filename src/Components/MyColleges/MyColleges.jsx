@@ -1,4 +1,4 @@
-import CollegeCard from "./CollegeCard";
+import CollegeCard from "../Colleges/CollegeCard";
 
 const colleges = [
   {
@@ -30,24 +30,14 @@ const colleges = [
     events: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     sports: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
-
-  {
-    name: "Daffodil International University",
-    image: "https://i.postimg.cc/hPshcSXQ/download.jpg",
-    rating: 4.5,
-    admissionDate: "August 2023",
-    researchCount: 25,
-    events: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    sports: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
   // Add more colleges here...
 ];
 
-const CollegeHome = () => {
+const MyCollege = () => {
   return (
     <div className="container my-8 mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 className="text-3xl font-semibold mb-8">Top Colleges</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <h1 className="text-3xl font-semibold mb-8">My Colleges</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
         {colleges.map((college, index) => (
           <CollegeCard key={index} college={college} />
         ))}
@@ -56,4 +46,4 @@ const CollegeHome = () => {
   );
 };
 
-export default CollegeHome;
+export default MyCollege;

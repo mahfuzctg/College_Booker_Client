@@ -19,7 +19,7 @@ const Header = () => {
         </Link>
       </li>
       <li>
-        <Link to="/My College" className=" no-underline  font-bold text-white">
+        <Link to="/MyCollege" className=" no-underline  font-bold text-white">
           My College
         </Link>
       </li>
